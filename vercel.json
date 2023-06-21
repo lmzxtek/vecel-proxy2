@@ -7,10 +7,11 @@
     {"src": "/msb/(.*)", "dest": "https://www.bing.com/$1"},
     {"src": ".msb/(.*)", "dest": "https://www.bing.com/$1"},
     {"src": "/gg/(.*)", "dest": "https://www.google.com/$1"},
-    {"src": "/ddg(.*)", "dest": "https://duckduckgo.com$1"},
+    {"src": "/ddg/(.*)", "dest": "https://duckduckgo.com/$1"},
     {"src": "/br/(.*)", "dest": "https://brave.com/$1"},
     {"src": "/brs/(.*)", "dest": "https://search.brave.com/$1"},
     {"src": "/sch/(.*)", "dest": "https://scholar.google.com/$1"},
     {"src": "/trans/(.*)", "dest": "https://translate.google.com/$1"}
+    {"src": "/hec/(.*)", "dest": "https://www.hec.usace.army.mil/$1"},    
   ]
 }
