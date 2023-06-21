@@ -5,6 +5,7 @@
     {"source": "/ytb(.*)", "destination": "https://www.youtube.com$1"},
     {"source": "/git(.*)", "destination": "https://www.github.com$1"},
     {"source": "/msb(.*)", "destination": "https://www.bing.com$1"},
+    {"source": ".msb(.*)", "destination": "https://www.bing.com$1"},
     {"source": "/gg(.*)", "destination": "https://www.google.com$1"},
     {"source": "/sch(.*)", "destination": "https://scholar.google.com$1"},
     {"source": "/trans(.*)", "destination": "https://translate.google.com$1"}
