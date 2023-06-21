@@ -12,6 +12,9 @@
     {"src": "/brs/(.*)", "dest": "https://search.brave.com/$1"},
     {"src": "/sch/(.*)", "dest": "https://scholar.google.com/$1"},
     {"src": "/trans/(.*)", "dest": "https://translate.google.com/$1"},
+    {"src": "/vivaldi/(.*)", "dest": "https://vivaldi.com/$1"},
+    {"src": "/notpad/(.*)", "dest": "https://notepad-plus-plus.org/$1"},
+    {"src": "/potplayer/(.*)", "dest": "https://potplayer.tv/$1"},
     {"src": "/hec/(.*)", "dest": "https://www.hec.usace.army.mil/$1"}    
   ]
 }
