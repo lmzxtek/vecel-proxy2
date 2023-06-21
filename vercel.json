@@ -1,13 +1,13 @@
 {
-  "rewrites": [
-    {"source": "/aiapi(.*)", "destination": "https://api.openai.com$1"},
-    {"source": "/gpt(.*)", "destination": "https://chat.openai.com$1"},
-    {"source": "/ytb(.*)", "destination": "https://www.youtube.com$1"},
-    {"source": "/git(.*)", "destination": "https://www.github.com$1"},
-    {"source": "/msb(.*)", "destination": "https://www.bing.com$1"},
-    {"source": ".msb(.*)", "destination": "https://www.bing.com$1"},
-    {"source": "/gg(.*)", "destination": "https://www.google.com$1"},
-    {"source": "/sch(.*)", "destination": "https://scholar.google.com$1"},
-    {"source": "/trans(.*)", "destination": "https://translate.google.com$1"}
+  "routes": [
+    {"src": "/aiapi/(.*)", "dest": "https://api.openai.com/$1"},
+    {"src": "/gpt/(.*)", "dest": "https://chat.openai.com/$1"},
+    {"src": "/ytb/(.*)", "dest": "https://www.youtube.com/$1"},
+    {"src": "/git/(.*)", "dest": "https://www.github.com/$1"},
+    {"src": "/msb/(.*)", "dest": "https://www.bing.com/$1"},
+    {"src": ".msb/(.*)", "dest": "https://www.bing.com/$1"},
+    {"src": "/gg/(.*)", "dest": "https://www.google.com/$1"},
+    {"src": "/sch/(.*)", "dest": "https://scholar.google.com/$1"},
+    {"src": "/trans/(.*)", "dest": "https://translate.google.com/$1"}
   ]
 }
