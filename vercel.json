@@ -1,0 +1,11 @@
+{
+  "rewrites": [
+    {"source": "/youtube/(.*)", "destination": "https://www.youtube.com/$1"}
+    {"source": "/chatgpt/(.*)", "destination": "https://chat.openai.com/$1"}
+    {"source": "/openapi/(.*)", "destination": "https://api.openai.com/$1"}
+    {"source": "/bing/(.*)", "destination": "https://www.bing.com/$1"}
+    {"source": "/google/(.*)", "destination": "https://www.google.com/$1"}
+    {"source": "/scholar/(.*)", "destination": "https://scholar.google.com/$1"}
+    {"source": "/translate/(.*)", "destination": "https://translate.google.com/$1"}
+  ]
+}
