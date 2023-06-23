@@ -1,5 +1,7 @@
 {
   "routes": [
+    {"src": "/deepl/(.*)", "dest": "https://www2.deepl.com/$1"},
+    {"src": "/openl/(.*)", "dest": "https://api.openl.club/$1"},
     {"src": "/aiapi/(.*)", "dest": "https://api.openai.com/$1"},
     {"src": "/gpt/(.*)", "dest": "https://chat.openai.com/$1"},
     {"src": "/ytb/(.*)", "dest": "https://www.youtube.com/$1"},
