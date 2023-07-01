@@ -7,7 +7,7 @@
     {"src": "/ytb/(.*)", "dest": "https://www.youtube.com/$1"},
     {"src": "/git/(.*)", "dest": "https://www.github.com/$1"},
     {"src": "/msb/(.*)", "dest": "https://www.bing.com/$1"},
-    {"src": ".msb/(.*)", "dest": "https://www.bing.com/$1"},
+    {"src": "/msb/(.*)", "dest": "https://www.bing.com/$1"},
     {"src": "/gg/(.*)", "dest": "https://www.google.com/$1"},
     {"src": "/ddg/(.*)", "dest": "https://duckduckgo.com/$1"},
     {"src": "/br/(.*)", "dest": "https://brave.com/$1"},
@@ -17,6 +17,8 @@
     {"src": "/vivaldi/(.*)", "dest": "https://vivaldi.com/$1"},
     {"src": "/notpad/(.*)", "dest": "https://notepad-plus-plus.org/$1"},
     {"src": "/potplayer/(.*)", "dest": "https://potplayer.tv/$1"},
-    {"src": "/hec/(.*)", "dest": "https://www.hec.usace.army.mil/$1"}    
+    {"src": "/hec/(.*)", "dest": "https://www.hec.usace.army.mil/$1"},    
+    {"src": "/(.*)", "dest": "https://www.google.com/$1"},    
+    {"src": "/", "dest": "https://www.google.com"},    
   ]
 }
