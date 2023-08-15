@@ -15,6 +15,7 @@
     {"source": "/brs/(.*)", "destination": "https://search.brave.com/$1"},
     {"source": "/sch/(.*)", "destination": "https://scholar.google.com/$1"},
     {"source": "/trans/(.*)", "destination": "https://translate.google.com/$1"},
+    {"source": "/transapi/(.*)", "destination": "https://translate.googleapis.com/$1"},
     {"source": "/vivaldi/(.*)", "destination": "https://vivaldi.com/$1"},
     {"source": "/notpad/(.*)", "destination": "https://notepad-plus-plus.org/$1"},
     {"source": "/potplayer/(.*)", "destination": "https://potplayer.tv/$1"},
