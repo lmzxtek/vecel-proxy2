@@ -1,8 +1,6 @@
 {
   "rewrites": [
-    {"source": "/scidown/(.*)", "destination": "https://www.scidown.cn/$1"},
-    {"source": "/deepl/(.*)", "destination": "https://www2.deepl.com/$1"},
-    {"source": "/openl/(.*)", "destination": "https://api.openl.club/$1"},      
+    {"source": "/(.*)", "destination": "https://brave.com/$1"}
   ]
 }
 
