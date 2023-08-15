@@ -18,9 +18,7 @@
     {"source": "/vivaldi/(.*)", "destination": "https://vivaldi.com/$1"},
     {"source": "/notpad/(.*)", "destination": "https://notepad-plus-plus.org/$1"},
     {"source": "/potplayer/(.*)", "destination": "https://potplayer.tv/$1"},
-    {"source": "/hec/(.*)", "destination": "https://www.hec.usace.army.mil/$1"},    
-    {"source": "/(.*)", "destination": "https://www.google.com/$1"},    
-    {"source": "/", "destination": "https://www.google.com"},    
+    {"source": "/hec/(.*)", "destination": "https://www.hec.usace.army.mil/$1"},        
   ]
 }
 
