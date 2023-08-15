@@ -1,5 +1,24 @@
 {
   "rewrites": [
+    {"source": "/scidown/(.*)", "destination": "https://www.scidown.cn/$1"},
+    {"source": "/deepl/(.*)", "destination": "https://www2.deepl.com/$1"},
+    {"source": "/openl/(.*)", "destination": "https://api.openl.club/$1"},
+    {"source": "/openai/(.*)", "destination": "https://api.openai.com/$1"},
+    {"source": "/chat/(.*)", "destination": "https://chat.openai.com/$1"},
+    {"source": "/ytb/(.*)", "destination": "https://www.youtube.com/$1"},
+    {"source": "/git/(.*)", "destination": "https://www.github.com/$1"},
+    {"source": "/msb/(.*)", "destination": "https://www.bing.com/$1"},
+    {"source": "/gg/(.*)", "destination": "https://www.google.com/$1"},
+    {"source": "/ddg/(.*)", "destination": "https://duckduckgo.com/$1"},
+    {"source": "/br/(.*)", "destination": "https://brave.com/$1"},
+    {"source": "/brs/(.*)", "destination": "https://search.brave.com/$1"},
+    {"source": "/sch/(.*)", "destination": "https://scholar.google.com/$1"},
+    {"source": "/trans/(.*)", "destination": "https://translate.google.com/$1"},
+    {"source": "/transapi/(.*)", "destination": "https://translate.googleapis.com/$1"},
+    {"source": "/vivaldi/(.*)", "destination": "https://vivaldi.com/$1"},
+    {"source": "/notpad/(.*)", "destination": "https://notepad-plus-plus.org/$1"},
+    {"source": "/potplayer/(.*)", "destination": "https://potplayer.tv/$1"},
+    {"source": "/hec/(.*)", "destination": "https://www.hec.usace.army.mil/$1"},        
     {"source": "/(.*)", "destination": "https://www.google.com/$1"}
   ]
 }
